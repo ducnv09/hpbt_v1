@@ -42,10 +42,10 @@ function typeWriter(texts, element, textIndex = 0, i = 0) {
         setTimeout(() => {
             const imgGift = document.createElement('img');
             imgGift.classList.add('img-gift');
-            imgGift.src = './123.gif';
+            imgGift.src = './anh.jpg';
             imgGift.alt = 'gif';
             message.appendChild(imgGift);
-        }, 1500);
+        }, 100);
     }
 }
 
